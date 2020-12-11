@@ -20,10 +20,14 @@ The students then have the challenge of implementing AdaBoost on Decision Trees.
 
 ## Navigating this repository
 
-Note is contained in Multiplicative Weights and Boosting Note.pdf
+Note is contained in Note.pdf
 
-Slide Deck is contained in Multiplicative Weights and Boosting Slide Deck.pdf
+Student Code is contained in Student_Code_Multiplicative_Weights_and_Ensemble_Methods_Boosting.ipynb
 
-Code is contained in Multiplicative Weights and Boosting.ipynb
+Code Solutions are contained Code_Solution_Multiplicative_Weights_and_Ensemble_Methods_Boosting.ipynb
 
-Quiz Questions are contained in Multiplicative Weights and Boosting Quiz Questions.pdf
+Slide Deck is contained in Multiplicative Weights and Boosting Slides.pdf
+
+Quiz Questions are contained in Quiz Questions Multiplicative Weights and Boosting.pdf
+
+Quiz Solutions are contained in Quiz Solutions Multiplicative Weights and Boosting.pdf
