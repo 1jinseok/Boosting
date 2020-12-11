@@ -1,16 +1,18 @@
-# Boosting
-This assignment is going to take a relatively different approach to introducing boosting. Instead of introducing boosting within the scope of some machine learning application such as decision trees (which was assumedly covered in a prior week), we will first look more broadly at the general algorithmic framework of multiplicative weight updates (MWU), which is really just another flavor of something you've already seen in classes like EECS16AB through Lagrange Interpolation and Orthogonal Matching Pursuit (OMP). Then, we will revisit decision trees and random forests, and apply our MWU framework to that to get an idea of what the AdaBoost Algorithm is doing at a more intuitive level. 
+# Multiplicative Weights and Ensemble Methods - Boosting
+
+## Learning Objectives
+This assignment is going to take a relatively different approach to introducing boosting. Instead of introducing boosting within the scope of some machine learning application such as decision trees (which was assumedly covered in a prior week), we will first look more broadly at the general algorithmic framework of multiplicative weight updates (MWU) since this encapsulates the intuition of ensemble methods in machine learning. From this lens, we will investigate applications such as bagging and boosting, with an added emphasis on boosting, where we investigate Adaboost and the more generalized notion of Gradient Boosting. During this journey, we will discover that the conceptual depth around these topics is nothing out of the ordinary. In fact, we have already seen a close cousin of gradient boosting in EECS16A/EECS16b: Orthogonal Matching Pursuit (OMP). Finally, we compare and contrast various ensemble methods - decision trees to random forests, Adaboost, gradient boosting, relating them to the bias-variance tradeoff, and looking at some more industrial comparisons as well. All in all, this assignment serves to introduce boosting with an incredibly strong conceptual background and intuitive grasp, along with providing excellent practical skills in a real life setting with modern datasets and packages.
 
 The idea of aggregating information from many sources has great utility in machine learning and is the basis behind ensemble methods. Boosting is one example of an ensemble method which has had great success in real-life applications; Indeed, the fundamental ideas behind these concepts are universal.
 
-## Learning Objectives
+
 Upon completion of this lesson, the student will be able to:
 
-1. Identify and use the Multiplicative Weights Update (MWU) method as a general framework in a wide variety of problems. Identify the intimate connection between MWU and basic concepts in linear algebra, and look at problems that we've seen before in courses like EECS16AB, such as OMP, through the lens of MWU. 
+1. Understand and use the Multiplicative Weights Update (MWU) method as a general framework in a wide variety of problems. Identify the intimate connection between MWU and ensemble methods in machine learning, and look at problems that we've seen before in courses like EECS16A/EECS16B, such as OMP, through the lens of MWU. 
 
-2. Understand the basic ideas of Ensemble Methods in machine learning and the idea of combining several classifiers to create better ones.
+2. Understand the basic ideas of Ensemble Methods in machine learning and the idea of combining several classifiers to create better ones. Understand boosting and bagging, their similarities and differences. Understand the bias-variance tradeoff between the two. Understand the intimate connection between OMP and boosting. 
 
-3. Apply the AdaBoost Algorithm to Decision Trees to create strong classifiers from several weak ones, and view this as a particular application of the MWU framework. 
+3. Apply the AdaBoost Algorithm to Decision Trees to create strong classifiers from several weak ones, and view this as a particular application of the MWU framework. Gain practical skills for machine learning in real life applications with sklearn. 
 
 ## How our assignment helps with that
 
